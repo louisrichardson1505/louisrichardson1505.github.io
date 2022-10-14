@@ -65,7 +65,7 @@
   <div class="nav-border">
     <a href="/" class="hover-underline-animation">Homepage</a>
     <a href="#" class="hover-underline-animation">My Skills</a>
-    <a href="#" class="hover-underline-animation">My Projects</a>
+    <a href="my-projects" class="hover-underline-animation">My Projects</a>
     <a href="about-me" class="hover-underline-animation">About</a>
     <a href="contact-me" class="hover-underline-animation">Contact</a>
     <a href="#" class="hover-underline-animation">Social Media</a>

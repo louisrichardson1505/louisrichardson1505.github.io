@@ -9,6 +9,28 @@
 </head>
 <body>
   @include('components.nav-bar')
-  
+  <div class="container">
+    <div class="project-card">
+      <a class="project-link" href="#">
+        <img src="500x200.png">
+        <h2>Python Game</h2>
+        <a>
+    </div>
+  </div>
+
+{{-- ready for refactor --}}
+
+  {{-- <div class="container">
+    <div class="project-card">
+      @foreach($project as $projects)
+      <a class="project-link" href="{{$projects['url']}}">
+        <img src="{{$projects['image']}}">
+        <h2>{{$projects['title']}}</h2>
+      </a>
+      @endforeach
+    </div>
+  </div> --}}
+
+
 </body>
 </html>

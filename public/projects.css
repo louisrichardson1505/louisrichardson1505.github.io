@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.project-card {
+    background-color: #6d7578;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.project-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* .project-link {
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-link::after {
+    content: "";
+    position: absolute;
+    width: 97%;
+    margin-left: 7px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #1e1f22;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+.project-link::after {
+    transform: scaleX(0);
+}
+
+.project-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+} */
+
+.project-link img {
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.project-link img:hover {
+    transform: scale(1.05);
+}
