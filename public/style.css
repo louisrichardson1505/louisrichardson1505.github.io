@@ -48,7 +48,7 @@
 
 /* Animation */
 .occupation {
-    animation: animated-text 2s steps(44, end) 1s 1 normal both;
+    animation: animated-text 2s steps(44, end) 2.5s 1 normal both;
 }
 
 /* text animation */
