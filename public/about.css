@@ -1,0 +1,28 @@
+.container {
+    margin-top: 4rem;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.left-side {
+    margin-left: 250px;
+}
+
+.left-side h1 {
+    font-size: 40px;
+    padding-bottom: 12px;
+}
+
+.heading {
+    line-height: 1.4;
+    padding-bottom: 20px;
+}
+
+.left-side p {
+    line-height: 2;
+}
+
+.right-side {
+    margin-right: 250px;
+}
