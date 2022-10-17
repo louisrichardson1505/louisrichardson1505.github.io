@@ -10,6 +10,7 @@
     background-color: #6d7578;
     border-radius: 10px;
     font-size: 16px;
+    margin-top: 1.5rem;
 }
 
 .project-card img {
@@ -45,11 +46,15 @@
     transform-origin: bottom left;
 } */
 
-.project-link img {
+.project-card {
     transition: 0.3s;
     overflow: hidden;
 }
 
-.project-link img:hover {
-    transform: scale(1.05);
+.project-card:hover {
+    transform: scale(1.03);
+}
+
+.project-link {
+    text-decoration: none;
 }

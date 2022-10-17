@@ -29,6 +29,10 @@ Route::get('/contact-me', function () {
     return view('contact');
 });
 
-Route::get('/my-projects', function () {
-    return view('projects');
+Route::get('/my-work', function () {
+    return view('my-work');
+});
+
+Route::get('/my-work/hays-travel', function () {
+    return view('hays-travel');
 });
