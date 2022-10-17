@@ -18,15 +18,15 @@
       <label for="lname">Last Name</label>
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-      <label for="country">Country</label>
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
+      <label for="subject">Subject of Message</label>
+      <select id="subject" name="subject">
+        <option value="australia">Feedback</option>
+        <option value="canada">I spotted a bug!</option>
+        <option value="usa">Kind message :)</option>
       </select>
 
       <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
 
       <input type="submit" value="Submit">
     </form>
