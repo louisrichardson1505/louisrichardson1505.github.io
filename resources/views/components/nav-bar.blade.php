@@ -59,16 +59,24 @@
 
 </style>
 
+{{-- <script>
+  function lightMode() {
+    var element = document.body;
+    element.classList.toggle("light-mode");
+  }
+
+</script> --}}
+
 {{-- <link rel="stylesheet" href="nav-bar.css"> --}}
 
 <div class="nav-bar">
   <div class="nav-border">
     <a href="/" class="hover-underline-animation">Homepage</a>
-    <a href="#" class="hover-underline-animation">My Skills</a>
-    <a href="my-work" class="hover-underline-animation">My Work</a>
-    <a href="about-me" class="hover-underline-animation">About</a>
-    <a href="contact-me" class="hover-underline-animation">Contact</a>
-    <a href="#" class="hover-underline-animation">Social Media</a>
-    <a href="#" class="hover-underline-animation">CV</a>
+    <a href="/" class="hover-underline-animation">My Skills</a>
+    <a href="/my-work" class="hover-underline-animation">My Work</a>
+    <a href="/about-me" class="hover-underline-animation">About</a>
+    <a href="/contact-me" class="hover-underline-animation">Contact</a>
+    <a href="/" class="hover-underline-animation">CV</a>
+    {{-- <button onclick="lightMode()">Too light?</button> --}}
   </div>
 </div>

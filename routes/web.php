@@ -34,5 +34,5 @@ Route::get('/my-work', function () {
 });
 
 Route::get('/my-work/hays-travel', function () {
-    return view('hays-travel');
+    return view('hays');
 });
