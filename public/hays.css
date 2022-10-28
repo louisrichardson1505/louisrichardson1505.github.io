@@ -1,0 +1,57 @@
+* {
+    margin: 0 auto;
+}
+
+.independence-title {
+    font-size: 32px;
+    rotate: -8deg;
+    margin-top: 2rem;
+}
+
+.benefits-image {
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 12rem;
+    margin-top: 3.5rem;
+}
+.member-table-image {
+    width: 50%;
+    height: 50%;
+    margin-left: 12rem;
+    margin-top: 4rem;
+}
+
+.content-container {
+    max-width: 95%;
+}
+
+.independence-container img {
+    /* background-color: #2a2b2f; */
+    box-shadow: 0px 10px 20px #303136;
+}
+
+.independence-flexbox {
+    display: flex;
+    gap: 1rem;
+}
+
+.independence-description {
+    /* position: fixed; */
+    margin-top: 15rem;
+    margin-right: 11rem;
+    width: 60%;
+    font-size: 18px;
+}
+
+.independence-description-2 {
+    margin-top: 9rem;
+    margin-right: 11rem;
+    width: 60%;
+    font-size: 18px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}

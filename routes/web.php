@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\haysController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,6 +34,8 @@ Route::get('/my-work', function () {
     return view('my-work');
 });
 
-Route::get('/my-work/hays-travel', function () {
-    return view('hays-travel');
+Route::prefix('my-work/hays')->group(function () {
+    Route::get('/', [haysController::class, 'show']);
+    Route::get('/independence-group', [haysController::class, 'independenceGroup']);
+    Route::get('/faraway', [haysController::class, 'faraway']);
 });
